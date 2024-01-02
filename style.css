@@ -22,22 +22,39 @@ body{
     height: 150px;
     background-color: grey;
     font-size: 2.5em;
+    overflow:auto;
 }
 #box1{
     background-color: red;
     margin-left: auto;
-    float: right;
     margin: 50px;
     overflow: scroll;
 }
 #box2{
     background-color: purple;
     margin: 100px;
-    float: left;
 }
 #giberish{
     border: 5px solid;
 
 display: flow-root
 }
-z
+#z{
+    background-color: blueviolet;
+}
+.block{
+    border: 5px groove blue;
+    background-color: blanchedalmond;
+    width:50%;
+    padding 5px;
+    box-sizing: border-box;
+    float:left
+}
+#box5{
+    border: 3px solid;
+    font-size: 0.5em;
+    background-color: blueviolet;
+    position:absolute;
+    width: 50px;
+    overflow: scroll;
+}
