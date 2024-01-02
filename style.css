@@ -9,6 +9,25 @@ dl{
 }
 #hello{
     font-family: verdana, arial;
-    border-style: solid;
+    border: 6px groove blueviolet;
     border-radius: 10px;
+    text-shadow: 6px 6px 6px rgb(250,0,0), -6px -6px 6px rgb(0,0,250);
+}
+body{
+    margin: 30px;
+}
+.box{
+    border: 6px groove;
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    font-size: 2.5em;
+}
+#box1{
+    background-color: red;
+    margin-left: auto;
+}
+#box2{
+    background-color: purple;
+    margin: 100px;
 }
