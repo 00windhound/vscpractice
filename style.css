@@ -1,0 +1,14 @@
+ul{
+    background-color: rgb(137, 196, 215); color:rgb(1, 1, 150);
+}
+ol{
+    background-color: lightgreen; color:rgb(3, 145, 3);
+}
+dl{
+    background-color:rgb(241, 168, 168); color:orangered
+}
+#hello{
+    font-family: verdana, arial;
+    border-style: solid;
+    border-radius: 10px;
+}

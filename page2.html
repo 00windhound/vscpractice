@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" href="icon.png">
+    <title>page 2</title>
+</head>
+<body>
+    <header style="background-color: rgb(193, 193, 246);">
+<h1 style="color: blueviolet; text-shadow: 5px 5px 10px"> you made it to page toooo!!!</h1>
+<!--negative shadow numbers move the shadow the other way. first two numbers are placement third is blur-->
+
+<a href="index.html" title="first page">home</a>
+<a href="" title="there are none">products</a>
+<a href="" title="or don't">contact me</a>
+<hr>
+    </header>
+
+    <a href="index.html">
+        <button title="back to home" style="font-size: 22px; background-color: red; border-radius: 7px;">go back!!</button>
+    </a>
+
+    <form action="index.php" method="post">
+<!--action="sends data here" post is sensitive(passwords) 'get' is not-->
+<label for="username">username</label>
+<input type="text" id="username" minlength="3" required  placeholder="name"><br>
+<label for="password">password</label>
+<input type="password" id="password"><br>
+<label for="email">email</label>
+<input type="email" id="email"><br>
+<label for="phone">phone number</label>
+<input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+<label for="bday">birthday</label>
+<input type="date" id="bday"><br>
+<label for="count">how many</label>
+<input type="number" id="count" min="0" max="100"><br>
+
+<label for="pig">pig</label>
+<input type="radio" id="pig" value="pig" name="animal">
+<label for="chicken">chicken</label>
+<input type="radio" id="chicken" value="chicken" name="animal">
+<label for="cow">cow</label>
+<input type="radio" id="cow" value="cow" name="animal"><br>
+
+<label for="pay">monies</label>
+<select id="pay">
+<option value="dollars">dollars</option>
+<option value="monopoly">monopoly money</option>
+<option value="emralds">emralds</option>
+</select><br>
+
+<label for="yes">yes?</label>
+<input type="checkbox" id="yes"><br>
+<label for="talk">talk to me</label>
+<textarea id="talk"rows="3" cols="25"></textarea><br>
+<label for="file">send stuff</label>
+<input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+<input type="reset"><br>
+<input type="submit">
+    </form>
+    <p>submit doesn't do anything cuz im lame like that </p>
+    
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+    <!-- in style 1em is normal size. can do 1.5, 0.5 so on-->
+    
+    <footer>
+<hr>
+author:lindy<br>
+&copy; copyright reserved<br>
+<a href="00crystalynthompson@gmail.com">email me</a>
+    </footer>
+</body>
+</html>
