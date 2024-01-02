@@ -26,8 +26,18 @@ body{
 #box1{
     background-color: red;
     margin-left: auto;
+    float: right;
+    margin: 50px;
+    overflow: scroll;
 }
 #box2{
     background-color: purple;
     margin: 100px;
+    float: left;
 }
+#giberish{
+    border: 5px solid;
+
+display: flow-root
+}
+z
