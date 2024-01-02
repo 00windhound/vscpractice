@@ -13,6 +13,11 @@ dl{
     border-radius: 10px;
     text-shadow: 6px 6px 6px rgb(250,0,0), -6px -6px 6px rgb(0,0,250);
 }
+#formm{
+    border: 5px solid blue;
+    width:fit-content
+    
+}
 body{
     margin: 30px;
 }
