@@ -17,7 +17,13 @@ dl{
     border: 5px solid blue;
     width:fit-content;
     padding: 5px;
-    
+}
+#info{
+    width: 300px;
+    height:300px;
+    border: 3px solid;
+    padding: 5px;
+    float: right;
 }
 body{
     margin: 30px;
@@ -66,3 +72,4 @@ display: flow-root
     width: 50px;
     overflow: scroll;
 }
+
