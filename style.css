@@ -15,7 +15,8 @@ dl{
 }
 #formm{
     border: 5px solid blue;
-    width:fit-content
+    width:fit-content;
+    padding: 5px;
     
 }
 body{
@@ -34,10 +35,12 @@ body{
     margin-left: auto;
     margin: 50px;
     overflow: scroll;
+    float: left;
 }
 #box2{
     background-color: purple;
     margin: 100px;
+    float: left;
 }
 #giberish{
     border: 5px solid;
@@ -51,7 +54,7 @@ display: flow-root
     border: 5px groove blue;
     background-color: blanchedalmond;
     width:50%;
-    padding 5px;
+    padding: 5px;
     box-sizing: border-box;
     float:left
 }
